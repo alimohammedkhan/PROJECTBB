@@ -1,111 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Project BB</title>
-    <style type="text/css">
-        h3{
-            color: blue;
-            font-size: 30px;
-            animation-name: changeColor;
-            animation-duration: 1s;
+	<meta charset="utf-8">
+	<title>Home | IFI</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	
 
-        }
-        @keyframes changeColor{
-            from{font-size: 10px;}
-            to{font-size: 30px;}
-        }
-        header{
-            position: fixed;
-            display:flex;
-            padding: 1rem 7%;
-            align-items: centre;
-             justify-content: space-between;
-            box-shadow: lightblue;
-            background-color: rgb(88, 224, 213);
-            width: 100%;
-            top: 0px;
-            left: 0px;
-        }
-        
-          header .navbar a{
-                 font-size: 1.2rem;
-                 border-radius: .5rem;
-                 padding: .5rem  1.5rem;
-                 color: black;
-                 text-decoration: none;
-                 
-                }
-        header .navbar a:hover{
-                color: #fff;
-                background-color: rgb(121, 72, 105);
-               }
-               .navbar{
-                margin-left: 900px;
-               }
-               .downloadButton{
-                background-color: greenyellow;
-                text-decoration: none;
-                border: 3px solid black;
-                   border-radius: 5rem;
-               }
-               .buttonContainer{
-                margin-top: 100px;
-                   display: inline-block;
-               }
-               #aboutUs{
-                border: 2px solid blanchedalmond;
-               }
+	<link rel="stylesheet" type="text/css" href="new-navbar.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 
-               .logoBody{
-                   display: inline-block;
-
-               }
-
-            .extensionDescription{
-               width: 50%;
-               text-decoration: seagreen;
-               word-spacing: 0.4rem;
-               line-height: 25px;
-               border: 2px solid rebeccapurple;
-               background-color: rgb(180, 112, 34);
-               border-radius: 5px;
-               
-            }
-
-              
-
-
-
-    </style>
 </head>
 <body>
-
-     <header>
-        <a href="#" class="logo"><i class="fab fa-500px"></i></a>
-    
-    
-        <nav class="navbar">
-            <a class="active" href="about">Platforms</a>
-            <a href="#">Contact US</a>
-            <a href="#" id="aboutUs">About US</a>
-        
-           
-         </nav>
-         <div  class="logo">
-             <a href="" class="fas fa-heart"></a>
-         </div>
-    </header>
-    <div class="buttonContainer"><a href="#" class="downloadButton" >Download the button from here</a></div>
-    <div class="logoBody">
-        logo
-    </div>
-     <div class="extensionDescription">
-      <p  id="extensionPara">  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nam neque excepturi sequi impedit quam, ut voluptatibus animi. Modi facere excepturi, qui cum aperiam doloremque reiciendis quas. Commodi libero veritatis nostrum eum cumque culpa, minima tempore sunt perferendis odio soluta nam omnis quo voluptatem modi ipsa, quod maiores, quisquam facere sapiente ut. Totam in quos temporibus sint fugit asperiores nobis labore rerum perferendis. Natus error expedita quasi dignissimos earum. Qui, in ipsa? Veniam rerum sed suscipit sint, dolores maiores quae facilis distinctio ipsam veritatis aspernatur earum mollitia animi consequuntur obcaecati facere est. Quibusdam accusamus placeat itaque vitae. Aliquam eum maiores rerum error ea nemo maxime! Neque id aut rem ea voluptatum officia deserunt voluptatibus, natus alias placeat facere aliquid odio dicta distinctio necessitatibus ex esse sint est corporis et voluptates libero animi nam blanditiis. Repudiandae delectus cupiditate necessitatibus? Error quos in porro et optio pariatur, impedit adipisci ea obcaecati, dignissimos illum earum ipsum atque. Minus eum rem necessitatibus aspernatur repellendus culpa amet temporibus maxime ut, explicabo laboriosam. Delectus corrupti debitis animi odit incidunt explicabo, excepturi vel, aperiam cupiditate itaque quisquam alias maxime architecto ratione voluptatibus numquam inventore quae eveniet esse dolores, rem ad! Exercitationem, distinctio corporis suscipit quaerat officiis omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dicta! Tempora dolorem sed ipsam voluptates dolore eius. Molestiae, enim optio libero vero esse hic dolorem voluptate modi mollitia exercitationem fugiat!</p>
-     </div>
-
-     <footer class="footer">
-        
-     </footer>
+	<header>
+		<div id="logo-div"><a href="index.html"><img src="logo.png" id="logo" alt="LOGO"></a></div>
+		<div class="nav_links"><a href="about.html">ABOUT</a></div>
+		<!--<div class="nav_links"><a href="#link_to_article">ARTICLES</a></div>-->
+	</header>
+	<div class="box1">
+        <video   preload="auto" autoplay loop muted="muted" volume="0"> 
+        <source src="production ID_4817881.mp4" type="video/mp4"> 
+        </video>
+        <div class="quote"><p class="welcomeQuote">WELCOME TO IFI<br><br></p><p class="author"></p></div>
+        </div>
+	
+	<div class="quote_container"><h2 class="quote1">Richness is not having many belongings, but richness is contentment of the soul.<br><br>-Prophet Muhammad(SAW)</h2></div>
+	<h2 class="art_heading">Articles</h2>
+	<div class="art_container">
+		<div id="link_to_article"><a href="article_1.html"><img class="thumbnail" src="thumb1.jpg"></a></div>
+		<div><a href="article_2.html"><img class="thumbnail" src="thumb2.jpg"></a></div>
+		<div><a href="article_3"><img class="thumbnail" src="thumb3.jpg"></a></div>
+		<!--<div><a href="#"><img class="thumbnail" src="thumb1.jpg"></a></div>-->
+	</div>
+	
+	<div class="viewAll"><button><a href="#">View all</a></button></div>
+	
+	<footer class="footer-end"><article><p id="company-name" style="margin: 0px">Islamic Finance India TM<br>2021-22</p><a href="mailto: codemo1992@gmail.com" id="my-email"><u>Contact via Email</u></a></article></footer>
 </body>
 </html>
